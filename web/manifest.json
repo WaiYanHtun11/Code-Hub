@@ -1,0 +1,35 @@
+{
+    "name": "codehub",
+    "short_name": "codehub",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Code Hub is a comprehensive learning app designed to help you master programming skills at your own pace. It offers a rich variety of resources, including engaging video lessons, in-depth text-based tutorials, and interactive quizzes to test your knowledge. Whether you're a beginner or looking to advance your coding abilities, Code Hub provides everything you need to build confidence and proficiency in programming.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
