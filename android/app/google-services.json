@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "711482219919",
+    "firebase_url": "https://code-hub-c933b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "code-hub-c933b",
+    "storage_bucket": "code-hub-c933b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711482219919:android:2be20be5a032687239bffa",
+        "android_client_info": {
+          "package_name": "com.waiyanhtun.codehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711482219919-0c6ledg4s359hoqq4krid5dva7ups1rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUZFvQLRRmhtDxZug7hl1j7DFqibssHhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711482219919-0c6ledg4s359hoqq4krid5dva7ups1rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
