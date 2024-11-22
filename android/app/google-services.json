@@ -30,6 +30,13 @@
             {
               "client_id": "711482219919-0c6ledg4s359hoqq4krid5dva7ups1rn.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "711482219919-ivg11cudmedca3qojqbjo8cpn7mqmob3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.waiyanhtun.codehub"
+              }
             }
           ]
         }
