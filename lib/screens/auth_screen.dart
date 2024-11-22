@@ -1,20 +1,10 @@
+import 'package:codehub/managers/auth_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:google_sign_in/google_sign_in.dart';
+import 'package:provider/provider.dart';
 
 class AuthScreen extends StatelessWidget {
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
-
-  AuthScreen({super.key});
-
-  Future<void> _handleGoogleSignIn() async {
-    try {
-      await _googleSignIn.signIn();
-      // You can navigate to the home screen upon successful sign-in
-    } catch (error) {
-      print('Google Sign-In error: $error');
-    }
-  }
+ const AuthScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -54,7 +44,7 @@ class AuthScreen extends StatelessWidget {
               const SizedBox(height: 40),
               // Google Sign-In Button
               GestureDetector(
-                onTap: _handleGoogleSignIn,
+                onTap: Provider.of<AuthManager>(context,listen: true).signIn,
                 child: Container(
                   height: 50,
                   decoration: BoxDecoration(
