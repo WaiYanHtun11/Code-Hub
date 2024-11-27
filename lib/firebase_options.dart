@@ -73,6 +73,7 @@ class DefaultFirebaseOptions {
     projectId: 'code-hub-c933b',
     databaseURL: 'https://code-hub-c933b-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'code-hub-c933b.firebasestorage.app',
+    androidClientId: '711482219919-djdo28mjied45h4nuo970ik4nl81emvq.apps.googleusercontent.com',
     iosClientId: '711482219919-ivg11cudmedca3qojqbjo8cpn7mqmob3.apps.googleusercontent.com',
     iosBundleId: 'com.waiyanhtun.codehub',
   );
